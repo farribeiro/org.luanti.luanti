@@ -40,7 +40,7 @@ modules:
         commit: 8e037534ccd62f444abbe4ce265443ee74bbfeb3
         x-checker-data:
           type: git
-          tag-pattern: ([\d.]+)$
+          tag-pattern: v([\d.]+)$
 
   - name: luanti
     buildsystem: cmake-ninja
