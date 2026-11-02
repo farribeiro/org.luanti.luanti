@@ -41,7 +41,6 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 10649
-          url-template: https://github.com/nih-at/libzip/releases/download/v$version/libzip-$version.tar.xz
 
   - name: luanti
     buildsystem: cmake-ninja
